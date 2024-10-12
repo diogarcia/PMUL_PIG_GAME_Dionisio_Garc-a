@@ -106,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     if(currPlayer1){
                         int current = Integer.parseInt(currP1.getText().toString());
-                        currP1.setText(String.valueOf(current+rdInt+30)); //TODO QUITAR + 30
+                        currP1.setText(String.valueOf(current+rdInt));
                     }else{
                         int current = Integer.parseInt(currP2.getText().toString());
-                        currP2.setText(String.valueOf(current+rdInt+30)); //TODO QUITAR + 30
+                        currP2.setText(String.valueOf(current+rdInt));
                     }
                 }
 
